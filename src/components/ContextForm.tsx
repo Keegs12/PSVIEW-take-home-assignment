@@ -108,6 +108,9 @@ export function ContextForm({
         <p className="section-note">
           Everything the agent does comes from this. It will configure its own personality and plan from it.
         </p>
+        <button type="button" className="secondary example-btn" onClick={() => setC(SAMPLE)}>
+          Use the PSVIEW example →
+        </button>
       </div>
 
       <div className="card-scroll">

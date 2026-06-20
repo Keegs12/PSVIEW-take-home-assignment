@@ -47,6 +47,7 @@ h1 { font-size: 22px; margin: 0 0 4px; }
 .card-foot button { margin-top: 0; }
 .card-foot > label:first-child { margin-top: 0; }
 .form-card .card-foot button { width: 100%; }
+.example-btn { margin-top: 10px; padding: 7px 12px; font-size: 13px; }
 .card h2 { font-size: 15px; margin: 0 0 12px; letter-spacing: .02em; text-transform: uppercase; color: var(--muted); }
 
 label { display: block; font-size: 13px; color: var(--muted); margin: 12px 0 4px; }
