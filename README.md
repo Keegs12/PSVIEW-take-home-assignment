@@ -55,14 +55,15 @@ npm install
 npm run dev                     # http://localhost:3000
 ```
 
-## Deploy (Vercel)
+## Configuration
 
-1. Push this repo to GitHub.
-2. Import it at [vercel.com/new](https://vercel.com/new) — the framework auto-detects as Next.js.
-3. Set environment variables on the Vercel project:
-   - `ANTHROPIC_API_KEY` = `sk-ant-...` **(required)**
-   - *(optional)* `PSVIEW_REASONING_MODEL`, `PSVIEW_WRITER_MODEL`, `PSVIEW_RESEARCH_MODEL`, `PSVIEW_VERIFY_MODE`
-4. Deploy. API routes run server-side, so the key never reaches the client.
+Set on the host (Vercel project settings, or `.env.local` for local runs):
+
+- `ANTHROPIC_API_KEY` — **required**
+- `PSVIEW_REASONING_MODEL` / `PSVIEW_WRITER_MODEL` / `PSVIEW_RESEARCH_MODEL` — optional model overrides
+- `PSVIEW_VERIFY_MODE` — `judge` (default) · `heuristic` · `off`
+
+Deployed on Vercel; API routes run server-side so the key never reaches the client.
 
 ---
 
