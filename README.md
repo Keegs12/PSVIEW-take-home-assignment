@@ -2,7 +2,7 @@
 
 An agent that **configures itself** from a company's context, **plans a grounded outreach sequence**, and **reasons over candidate replies** — all in a deployed preview app (nothing is sent for real).
 
-**Live URL:** _<add after deploy>_ · **Repo:** _<this repo>_
+**Live URL:** https://psview-take-home-assignment.vercel.app · **Repo:** https://github.com/Keegs12/PSVIEW-take-home-assignment
 
 ---
 
