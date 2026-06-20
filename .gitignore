@@ -1,0 +1,33 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# next.js
+/.next/
+/out/
+next-env.d.ts
+
+# production
+/build
+
+# env — never commit secrets
+.env
+.env.local
+.env*.local
+
+# design reference (career-ops pattern files) — NOT part of the shipped app
+/reference
+
+# misc
+.DS_Store
+*.pem
+npm-debug.log*
+.vercel
+*.tsbuildinfo
+
+# local editor / tooling settings (not part of the app)
+/.claude
+
+# internal brief / strategy notes — not part of the shipped deliverable
+OBJECTIVE.md
